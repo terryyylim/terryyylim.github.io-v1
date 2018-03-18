@@ -11,12 +11,29 @@
 *
 * ======================================================= */
 body {
-  font-family: "Playfair Display", Arial, serif;
+  font-family: "Avenir", Arial, serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
   color: #4d4d4d;
   background: #fff;
+}
+
+div.landingarea {
+  background-color: rgb(12, 12, 12);
+  margin: 0;
+  font-size: 5em;
+  position: relative;
+  overflow-x: hidden;
+  opacity: 0.6;
+}
+
+.profileimg {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  display: block;
+  margin: auto;
 }
 
 #page {
@@ -64,7 +81,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Playfair Display", Arial, serif;
+  font-family: "Avenir", Arial, serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -1088,7 +1105,7 @@ input[type="text"] {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Playfair Display", Arial, serif;
+  font-family: "Avenir", Arial, serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
